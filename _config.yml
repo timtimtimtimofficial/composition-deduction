@@ -16,8 +16,8 @@
 title: Composition Deduction
 description: An experimental journal of a niche sport
 
-url: "http://timtimtimtimofficial.github.io"
-baseurl:
+url: "https://timtimtimtimofficial.github.io"
+baseurl: "https://timtimtimtimofficial.github.io"
 sass:
   sass_dir: assets/_sass
 # Build settings
