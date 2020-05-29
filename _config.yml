@@ -16,7 +16,7 @@
 title: Tim Be Bloggin’
 description: An experimental journal of unknown topics
 
-url: https://timtimtimtimofficial.github.io
+url:
 baseurl:
 sass:
   sass_dir: assets/_sass
