@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} &#124; {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.title }} is ..." />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="fb:app_id" content="748071365378797" />
+  {% if page.metadata %}
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+    <meta property="og:title" content="{{ page.og-title }}" />
+    <meta property="og:description" content="{{ page.og-description }}" />
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.og-image }}" />
+    <meta name="twitter:title" content="{{ page.og-title }}">
+    <meta name="twitter:description" content="{{ page.og-description }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.og-image }}">
+    <meta itemprop="name" content="{{ page.og-title }}">
+    <meta itemprop="description" content="{{ page.og-description }}">
+    <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}{{ page.og-image }}">
+  {% else %}
+    {% for share in site.data.shares.shares %}
+      <meta property="og:url" content="{{ share.url }}" />
+      <meta property="og:title" content="{{ share.name }}" />
+      <meta property="og:description" content="{{ share.description }}" />
+      <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ share.img }}" />
+      <meta name="twitter:title" content="{{ share.name }}">
+      <meta name="twitter:description" content="{{ share.description }}">
+      <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ share.img }}">
+      <meta itemprop="name" content="{{ share.name }}">
+      <meta itemprop="description" content="{{ share.description }}">
+      <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}{{ share.img }}">
+    {% endfor %}
+  {% endif %}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/composition-deduction.css">
+  {% if page.js-head %}
+    {% for js-file in page.js-head %}
+      <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/{{ js-file }}"></script>
+    {% endfor %}
+  {% endif %}
+</head>
+<body {% if page.bg %} class="{{ page.bg }}" {% endif %}>

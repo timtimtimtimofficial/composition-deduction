@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="container-fluid">
+  {%- if site.posts.size > 0 -%}
+  {%- for post in site.posts limit:1 -%}
+  <div class="row mx-1">
+  <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-2 px-0 pt-lg-4 pb-3">
+    {%- assign date_format = "%b %-d, %Y" -%}
+    <span class="post-date">{{ post.date | date: date_format }}</span>
+  </div>
+  <div class="col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-8 pl-lg-3 pb-2 pb-lg-2 px-0">
+    <a href="{{ post.url | relative_url }}">
+      <div class="post-link-big">
+        <h1>
+          {{ post.title | escape }}<br>
+          <span>{{ post.subtitle | escape }}</span>
+        </h1>
+      </div>
+    </a>
+  </div>
+  </div>
+  {%- endfor -%}
+  {%- for post in site.posts offset:1 -%}
+  <div class="row mx-1">
+    <div class="col-4 col-md-3 offset-md-1 offset-lg-0 col-lg-2 pt-4 pb-3 pl-0 post-list-rule">
+      {%- assign date_format = "%b %-d, %Y" -%}
+        <span class="post-date">{{ post.date | date: date_format }}</span>
+    </div>
+    <div class="col-8 col-md-7 col-lg-10 pt-4 pb-2 pr-0 pl-lg-3 post-list-rule">
+      <a href="{{ post.url | relative_url }}">
+        <div class="post-link">
+          <h3>
+            {{ post.title | escape }}<br>
+            <span>{{ post.subtitle | escape }}</span>
+          </h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  {%- endfor -%}
+  {%- endif -%}
+</div>

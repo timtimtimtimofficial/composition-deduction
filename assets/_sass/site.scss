@@ -1,0 +1,238 @@
+// Type
+
+@font-face {
+   font-family: 'Maria';
+   font-weight: normal;
+   src: url('../../assets/fonts/maria.woff2') format('woff2'),
+        url('../../assets/fonts/maria.woff') format('woff'),
+        url('../../assets/fonts/maria.eot') format('eot');
+}
+
+@font-face {
+   font-family: 'Lyon';
+   font-weight: normal;
+   src: url('../../assets/fonts/lyontext-regular.woff') format('woff'),
+        url('../../assets/fonts/lyontext-regular.eot') format('eot');
+}
+
+// Grid
+
+.container-fluid {
+  max-width: 1200px;
+  flex: 1;
+}
+
+// Nav
+
+.home-link a {
+  @include transition(all ease-in-out 0.05s);
+  &:hover {
+    @include transition(all ease-in-out 0.05s);
+    color: $body;
+    border-bottom: 2px solid $body;
+  }
+}
+
+.nav-page-link {
+  &:not(:last-child) {
+    margin-right: 12px;
+  }
+  &:hover {
+    color: $body;
+    border-bottom: 2px solid $body;
+  }
+}
+
+// color classes
+
+.yellow {
+  background: $yellow;
+}
+
+.cyan {
+  background: $cyan;
+}
+
+.pink {
+  background: $pink;
+}
+
+.orange {
+  background: $orange;
+}
+
+.violet {
+  background: $violet;
+}
+
+// Posts list
+
+.post-date {
+  font-size: 14px;
+}
+
+.post-list-rule {
+  border-top: 1px solid $grey-transparent;
+  padding-top: 12px;
+  margin-top:12px;
+}
+
+.post-link h3 {
+  @include transition(all ease-in-out 0.05s);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.167;
+  margin: 1px 0px 3px;
+}
+
+.post-link h3 a {
+  color: $body;
+  &:hover {
+    border-bottom: 0px;
+    color: $peach;
+  }
+}
+
+.post-link span {
+  @include transition(all ease-in-out 0.05s);
+  color: $grey-6;
+}
+
+.post-link:hover h3 {
+  @include transition(all ease-in-out 0.05s);
+  color: $peach;
+}
+
+.post-link:hover span {
+  @include transition(all ease-in-out 0.05s);
+  color: $peach;
+}
+
+.post-link-big h1 {
+  @include transition(all ease-in-out 0.075s);
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1;
+  margin: -8px 0px 0px 0px;
+  @media only screen and (max-width: 768px) {
+    font-size: 46px;
+  }
+}
+
+.post-link-big h1 a{
+  color: $body;
+  &:hover {
+    border-bottom: 0px;
+    color: $peach;
+  }
+}
+
+.post-link-big span {
+  @include transition(all ease-in-out 0.075s);
+  color: $grey-6;
+}
+
+.post-link-big:hover h1 {
+  @include transition(all ease-in-out 0.075s);
+  color: $peach;
+}
+
+.post-link-big:hover span {
+  @include transition(all ease-in-out 0.075s);
+  color: $peach;
+}
+
+// Posts
+
+.post-header h1 {
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1;
+  margin: -8px 0px 0px 0px;
+  @media only screen and (max-width: 768px) {
+    font-size: 46px;
+  }
+}
+
+.post-header span {
+  color: $grey-6;
+}
+
+.post-body {
+  @include serif();
+  font-size: 20px;
+  color: $body-light;
+  line-height: 1.5;
+}
+
+.post-body a {
+  @include sans-serif();
+  @include transition(all ease-in-out 0.05s);
+  color: $body-light;
+  border-bottom: 1px solid $peach;
+  margin: 0px 1px;
+  padding: 0px;
+  &:hover {
+    @include transition(all ease-in-out 0.05s);
+    color: $body-light;
+    border-bottom: 2px solid $peach;
+    margin: 0px 1px;
+    padding: 0px;
+  }
+}
+
+.post-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.post-img-caption {
+  @include sans-serif();
+  max-width: 520px;
+  margin-top:16px;
+  font-size:15px;
+  line-height: 1.2;
+  color: $grey-6;
+}
+
+// footer
+
+.footer-text {
+  font-size: 18px;
+}
+
+// Body
+
+body {
+  background: $background;
+  @include sans-serif();
+  font-size: 20px;
+  line-height: 1.2;
+  color: $body;
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+// Linx
+
+a {
+  color: $body;
+  border: none;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  &:hover{
+    color: $body;
+    border-bottom: 2px solid $body;
+    padding-bottom: 1px;
+    text-decoration: none;
+  }
+  &:focus{
+    outline: 1px dotted $blue;
+  }
+}
