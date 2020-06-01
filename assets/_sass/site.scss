@@ -189,6 +189,9 @@
 .post-body table {
   @include monospace();
   font-size: 15px;
+  @media only screen and (max-width: 992px) {
+    font-size: 14px;
+  }
 }
 
 .post-table-lg {

@@ -71,6 +71,8 @@
 
 .post-body table { font-family: 'Roboto mono', monospace; font-size: 15px; }
 
+@media only screen and (max-width: 992px) { .post-body table { font-size: 14px; } }
+
 .post-table-lg { display: table; }
 
 @media only screen and (max-width: 992px) { .post-table-lg { display: none; } }
