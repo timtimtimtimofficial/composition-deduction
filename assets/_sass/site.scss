@@ -183,17 +183,17 @@
 
 .post-body table {
   @include monospace();
-  font-size: 16px;
+  font-size: 15px;
 }
 
-.table-lg {
+.post-table-lg {
   display: table;
   @media only screen and (max-width: 992px) {
     display:none;
   }
 }
 
-.table-sm {
+.post-table-sm {
   display: none;
   @media only screen and (max-width: 992px) {
     display: table;
@@ -205,7 +205,8 @@
 }
 
 .post-body th, td {
-  padding: 6px 0px;
+  padding-top: 6px;
+  padding-bottom: 7px;
 }
 
 .post-img img {
