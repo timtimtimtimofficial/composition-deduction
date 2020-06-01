@@ -95,7 +95,7 @@
 
 .post-link span {
   @include transition(all ease-in-out 0.05s);
-  color: $grey-6;
+  color: $grey-translucent;
 }
 
 .post-link:hover h3 {
@@ -129,7 +129,7 @@
 
 .post-link-big span {
   @include transition(all ease-in-out 0.075s);
-  color: $grey-6;
+  color: $grey-translucent;
 }
 
 .post-link-big:hover h1 {
@@ -181,6 +181,33 @@
   }
 }
 
+.post-body table {
+  @include monospace();
+  font-size: 16px;
+}
+
+.table-lg {
+  display: table;
+  @media only screen and (max-width: 992px) {
+    display:none;
+  }
+}
+
+.table-sm {
+  display: none;
+  @media only screen and (max-width: 992px) {
+    display: table;
+  }
+}
+
+.post-body tr {
+  border-bottom: 1px solid $grey-transparent;
+}
+
+.post-body th, td {
+  padding: 6px 0px;
+}
+
 .post-img img {
   max-width: 100%;
   max-height: 100%;
@@ -199,6 +226,10 @@
 
 .footer-text {
   font-size: 18px;
+}
+
+.footer-text a:hover {
+  border: 0px;
 }
 
 // Body

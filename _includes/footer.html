@@ -2,7 +2,11 @@
   <div class="container-fluid">
     <div class="row mx-1 mb-4 mt-4 pt-5">
       <div class="col-8 col-md-7 offset-md-1 offset-lg-0 pl-lg-3 pl-0 col-lg-6 offset-lg-2 footer-text">
-          <h3 class="mb-0 pb-0">&bull;</h3>{{ site.description }}
+          <h3 class="mb-0 pb-0">&bull;</h3>
+          <a href="{{ site.url }}{{ site.baseurl }}">
+            <p class="footer-link">{{site.title}}<br>
+            {{ site.description }}</p>
+          </a>
       </div>
     </div>
   </div>

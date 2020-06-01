@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Nailpolish is my Healing Medicine"
+subtitle: "I was also told to dance nude at midnight and join a dating app"
+date:   2020-01-11 16:49:33 -0400
+tags: astrology
+bg: violet
+---
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing at in tellus integer. Non arcu risus quis varius quam quisque. Viverra justo nec ultrices dui sapien eget mi proin sed. Interdum varius sit amet mattis vulputate enim. Viverra maecenas accumsan lacus vel facilisis volutpat. Dui sapien eget mi proin sed libero enim sed faucibus. Velit aliquet sagittis id consectetur purus. Lobortis feugiat vivamus at augue eget arcu. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Lacus vel facilisis volutpat est velit egestas dui id ornare. Urna condimentum mattis pellentesque id. At auctor urna nunc id cursus metus. At urna condimentum mattis pellentesque id. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Vitae tempus quam pellentesque nec nam aliquam sem et tortor.
+</p>
+
+</div>
+  <div class="col-12 px-0 pt-md-4 pt-2 pb-md-4 pb-2 post-body">
+    <table width=100% class="table-lg">
+      {% for row in site.data.liukin %}
+        {% if forloop.first %}
+        <tr>
+          {% for pair in row %}
+            <th>{{ pair[0] }}</th>
+          {% endfor %}
+        </tr>
+        {% endif %}
+
+        {% tablerow pair in row %}
+          {{ pair[1] }}
+        {% endtablerow %}
+      {% endfor %}
+    </table>
+    <table width=100% class="table-sm">
+      {% for row in site.data.liukin-sm %}
+        {% if forloop.first %}
+        <tr>
+          {% for pair in row %}
+            <th>{{ pair[0] }}</th>
+          {% endfor %}
+        </tr>
+        {% endif %}
+
+        {% tablerow pair in row %}
+          {{ pair[1] }}
+        {% endtablerow %}
+      {% endfor %}
+    </table>
+  </div>
+</div>
+<div class="col-12 col-md-10 offset-md-1 offset-lg-2 col-lg-8 mt-4 pl-lg-3 pb-2 pb-lg-2 px-0 post-body">
+
+<p>
+  Quam id leo in vitae turpis massa. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Ac auctor augue mauris augue neque. Pulvinar neque laoreet suspendisse interdum consectetur libero id. Tincidunt eget nullam non nisi est sit amet facilisis magna. Porttitor massa id neque aliquam vestibulum morbi. Vehicula ipsum a arcu cursus vitae. At imperdiet dui accumsan sit amet nulla facilisi. Egestas integer eget aliquet nibh praesent tristique magna sit. Cursus metus aliquam eleifend mi. Sagittis orci a scelerisque purus. Elementum sagittis vitae et leo duis ut diam quam. Quisque sagittis purus sit amet volutpat consequat. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Eget lorem dolor sed viverra ipsum nunc. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. Gravida cum sociis natoque penatibus.
+</p>
+<p>
+  Diam quis enim lobortis scelerisque fermentum. Nunc sed augue lacus viverra vitae congue eu consequat. Congue eu consequat ac felis. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Orci phasellus egestas tellus rutrum tellus pellentesque. Quis eleifend quam adipiscing vitae proin sagittis. Lobortis feugiat vivamus at augue eget arcu dictum varius. Vitae proin sagittis nisl rhoncus. Nisi lacus sed viverra tellus. Faucibus vitae aliquet nec ullamcorper sit amet risus. Nunc vel risus commodo viverra maecenas. Faucibus purus in massa tempor nec feugiat. Scelerisque eleifend donec pretium vulputate sapien. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet. Sed sed risus pretium quam vulputate dignissim suspendisse in est. Morbi non arcu risus quis varius. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Sed risus pretium quam vulputate dignissim. Rhoncus aenean vel elit scelerisque mauris.
+</p>
