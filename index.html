@@ -17,6 +17,11 @@ layout: default
           {{ post.title | escape }}<br>
           <span>{{ post.subtitle | escape }}</span>
         </h1>
+        {%- if post.img-01 -%}
+        <div class="post-img pt-3">
+          <img src="assets/img/{{post.img-01}}">
+        </div>
+        {%- endif -%}
       </div>
     </a>
   </div>
