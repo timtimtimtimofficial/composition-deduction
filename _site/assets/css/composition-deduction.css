@@ -1,6 +1,6 @@
 /* MIXINS keepin' prefix typing to a minimum y'all */
 /* TEXT */
-@import url("https://fonts.googleapis.com/css?family=RobotoMono:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 @font-face { font-family: 'Maria'; font-weight: normal; src: url("../../assets/fonts/maria.woff2") format("woff2"), url("../../assets/fonts/maria.woff") format("woff"), url("../../assets/fonts/maria.eot") format("eot"); }
 
 @font-face { font-family: 'Lyon'; font-weight: normal; src: url("../../assets/fonts/lyontext-regular.woff") format("woff"), url("../../assets/fonts/lyontext-regular.eot") format("eot"); }
