@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 px-0 pt-md-4 pt-2 pb-md-5 pb-3">
+      <table width=100%>
+        {% for row in site.data.////CONDENSED-TABLE-NAME//// %}
+          {% if forloop.first %}
+          <tr>
+            {% for pair in row %}
+              <th>{{ pair[0] }}</th>
+            {% endfor %}
+          </tr>
+          {% endif %}
+          {% tablerow pair in row %}
+            {{ pair[1] }}
+          {% endtablerow %}
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>

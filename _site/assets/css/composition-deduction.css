@@ -63,6 +63,8 @@
 
 .post-body { font-family: 'Lyon', georgia; font-weight: normal; font-size: 20px; color: #20262e; line-height: 1.5; }
 
+.post-body h2 { font-family: 'Maria', helvetica, verdana, arial, sans-serif; font-weight: normal; font-size: 28px; }
+
 .post-body a { font-family: 'Maria', helvetica, verdana, arial, sans-serif; font-weight: normal; -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: #20262e; border-bottom: 1px solid #ff8f7b; margin: 0px 1px; padding: 0px; }
 
 .post-body a:hover { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: #20262e; border-bottom: 2px solid #ff8f7b; margin: 0px 1px; padding: 0px; }

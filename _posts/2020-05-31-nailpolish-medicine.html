@@ -13,6 +13,9 @@ bg: violet
 
 </div>
   <div class="col-12 px-0 pt-md-4 pt-2 pb-md-4 pb-2 post-body">
+    <h2>
+      Here’s the table header.
+    </h2>
     <table width=100% class="post-table-lg">
       {% for row in site.data.liukin %}
         {% if forloop.first %}
@@ -22,7 +25,6 @@ bg: violet
           {% endfor %}
         </tr>
         {% endif %}
-
         {% tablerow pair in row %}
           {{ pair[1] }}
         {% endtablerow %}
@@ -37,7 +39,6 @@ bg: violet
           {% endfor %}
         </tr>
         {% endif %}
-
         {% tablerow pair in row %}
           {{ pair[1] }}
         {% endtablerow %}
@@ -46,6 +47,7 @@ bg: violet
   </div>
 </div>
 <div class="col-12 col-md-10 offset-md-1 offset-lg-2 col-lg-8 mt-4 pl-lg-3 pb-2 pb-lg-2 px-0 post-body">
+
 
 <p>
   The resulting Cross-Government Journey Map was based on data from interviews with 25 veterans and service members and experts from six federal agencies. The map lays out the process chronologically, and qualitatively in terms of “building blocks” and “barriers.” The team made recommendations for future improvements to the customer experience based on themes that emerged when synthesizing their research.
