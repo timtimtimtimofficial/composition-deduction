@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-01T01:22:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tim Be Bloggin’</title><subtitle>An experimental journal of unknown topics</subtitle><entry><title type="html">Nailpolish is my Healing Medicine</title><link href="http://localhost:4000/2020/05/31/nailpolish-medicine.html" rel="alternate" type="text/html" title="Nailpolish is my Healing Medicine" /><published>2020-05-31T16:49:33-04:00</published><updated>2020-05-31T16:49:33-04:00</updated><id>http://localhost:4000/2020/05/31/nailpolish-medicine</id><content type="html" xml:base="http://localhost:4000/2020/05/31/nailpolish-medicine.html">&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-03T23:20:40-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tim Be Bloggin’</title><subtitle>An experimental journal of unknown topics</subtitle><entry><title type="html">Nailpolish is my Healing Medicine</title><link href="http://localhost:4000/2020/05/31/nailpolish-medicine.html" rel="alternate" type="text/html" title="Nailpolish is my Healing Medicine" /><published>2020-05-31T16:49:33-04:00</published><updated>2020-05-31T16:49:33-04:00</updated><id>http://localhost:4000/2020/05/31/nailpolish-medicine</id><content type="html" xml:base="http://localhost:4000/2020/05/31/nailpolish-medicine.html">&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-12 px-0 pt-md-3 pt-3 pb-md-4 pb-2&quot;&gt;
+  &lt;div class=&quot;col-12 px-0 pt-md-3 pt-2 pb-md-4 pb-2&quot;&gt;
     &lt;div class=&quot;post-img&quot;&gt;
       &lt;img src=&quot;../../../assets/img/scribble.jpg&quot;&gt;
     &lt;/div&gt;
@@ -20,8 +20,8 @@
 
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-12 px-3 px-lg-0 mx-1 mx-lg-0 pt-md-4 pt-2 pb-md-4 pb-2 post-body&quot;&gt;
+&lt;div class=&quot;row px-1 px-lg-0&quot;&gt;
+  &lt;div class=&quot;col-12 px-3 px-lg-0 mx-0 mx-lg-0 pt-md-4 pt-2 pb-md-4 pb-2 post-body&quot;&gt;
     &lt;h2&gt;
       Here’s the table header.
     &lt;/h2&gt;
@@ -197,7 +197,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6 px-0 px-md-3 pt-md-5 pb-md-4 pt-3 pb-2&quot;&gt;
+  &lt;div class=&quot;col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6 px-0 px-md-3 pt-md-4 pb-md-4 pt-2 pb-2&quot;&gt;
     &lt;div class=&quot;post-img&quot;&gt;
       &lt;img src=&quot;../../../assets/img/scribble2.jpg&quot;&gt;
     &lt;/div&gt;
@@ -205,7 +205,7 @@
       Scribble 2 six federal agencies. The map lays out the process chronologically, and qualitatively in terms of “building blocks” and “barriers.”
     &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6 px-0 px-md-3 pt-md-2 pt-lg-5 pb-md-4 pt-3 pb-2&quot;&gt;
+  &lt;div class=&quot;col-12 col-md-10 offset-md-1 offset-lg-0 col-lg-6 px-0 px-md-3 pt-md-0 pt-lg-4 pb-md-4 pt-2 pb-2&quot;&gt;
     &lt;div class=&quot;post-img&quot;&gt;
       &lt;img src=&quot;../../../assets/img/scribble3.jpg&quot;&gt;
     &lt;/div&gt;
@@ -226,7 +226,7 @@
 
 &lt;div class=&quot;container-fluid&quot;&gt;
 &lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-12 px-0 pt-md-5 pt-4 pb-md-5 pb-4&quot;&gt;
+  &lt;div class=&quot;col-12 px-0 pt-md-4 pt-4 pb-md-4 pb-4&quot;&gt;
     &lt;div class=&quot;post-img&quot;&gt;
       &lt;img src=&quot;../../../assets/img/scribble2.jpg&quot;&gt;
     &lt;/div&gt;
@@ -247,7 +247,7 @@
 &lt;/p&gt;</content><author><name></name></author><category term="lelabears" /><category term="puppies" /><summary type="html">The resulting Cross-Government Journey Map was based on data from interviews with 25 veterans and service members and experts from six federal agencies. The map lays out the process chronologically, and qualitatively in terms of “building blocks” and “barriers.” The team made recommendations for future improvements to the customer experience based on themes that emerged when synthesizing their research.</summary></entry><entry><title type="html">I’m a Cucumber</title><link href="http://localhost:4000/2020/01/11/im-a-cucumber.html" rel="alternate" type="text/html" title="I’m a Cucumber" /><published>2020-01-11T15:49:33-05:00</published><updated>2020-01-11T15:49:33-05:00</updated><id>http://localhost:4000/2020/01/11/im-a-cucumber</id><content type="html" xml:base="http://localhost:4000/2020/01/11/im-a-cucumber.html">&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col-12 px-0 pt-md-3 pt-3 pb-md-4 pb-2&quot;&gt;
+  &lt;div class=&quot;col-12 px-0 pt-md-3 pt-2 pb-md-4 pb-2&quot;&gt;
     &lt;div class=&quot;post-img&quot;&gt;
       &lt;img src=&quot;../../../assets/img/scribble.jpg&quot;&gt;
     &lt;/div&gt;

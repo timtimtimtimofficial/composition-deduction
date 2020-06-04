@@ -89,23 +89,23 @@
   color: $body;
   &:hover {
     border-bottom: 0px;
-    color: $peach;
+    color: $grey-translucent;
   }
 }
 
-.post-link span {
+.subtitle-small {
   @include transition(all ease-in-out 0.05s);
   color: $grey-translucent;
 }
 
 .post-link:hover h3 {
   @include transition(all ease-in-out 0.05s);
-  color: $peach;
+  color: $grey-translucent;
 }
 
 .post-link:hover span {
   @include transition(all ease-in-out 0.05s);
-  color: $peach;
+  color: $grey-translucent;
 }
 
 .post-link-big h1 {
@@ -127,7 +127,7 @@
   }
 }
 
-.post-link-big span {
+.subtitle-large {
   @include transition(all ease-in-out 0.075s);
   color: $grey-translucent;
 }
