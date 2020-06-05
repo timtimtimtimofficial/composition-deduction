@@ -89,6 +89,16 @@
 
 .post-img-caption { font-family: 'Maria', helvetica, verdana, arial, sans-serif; font-weight: normal; max-width: 520px; margin-top: 16px; font-size: 15px; line-height: 1.2; color: #666; }
 
+.post-tag-link { line-height: 40px; }
+
+.post-tag-link a { -webkit-transition: all ease-in-out 0.03s; -moz-transition: all ease-in-out 0.03s; -ms-transition: all ease-in-out 0.03s; -o-transition: all ease-in-out 0.03s; transition: all ease-in-out 0.03s; font-family: 'Roboto mono', monospace; padding: 6px 10px; border-radius: 6px; background-color: rgba(0, 0, 0, 0); font-size: 15px; border: 1px solid #20262e; }
+
+.post-tag-link a:not(:last-child) { margin-right: 12px; }
+
+.post-tag-link a:hover { font-family: 'Roboto mono', monospace; padding: 6px 10px; border-radius: 6px; background-color: #fff; font-size: 15px; border: 1px solid #fff; }
+
+.post-tag-link a:hover:not(:last-child) { margin-right: 12px; }
+
 .footer-text { font-size: 18px; }
 
 .footer-text a:hover { border: 0px; }

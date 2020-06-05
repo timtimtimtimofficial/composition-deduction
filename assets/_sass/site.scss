@@ -231,6 +231,34 @@
   color: $grey-6;
 }
 
+.post-tag-link {
+  line-height:40px;
+}
+
+.post-tag-link a {
+  @include transition(all ease-in-out 0.03s);
+  @include monospace();
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: rgba(0,0,0,0);
+  font-size: 15px;
+  border: 1px solid $body-light;
+  &:not(:last-child) {
+    margin-right: 12px;
+  }
+  &:hover {
+    @include monospace();
+    padding: 6px 10px;
+    border-radius: 6px;
+    background-color: $white;
+    font-size: 15px;
+    border: 1px solid $white;
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+}
+
 // footer
 
 .footer-text {
