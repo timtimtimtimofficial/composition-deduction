@@ -238,23 +238,25 @@
 .post-tag-link a {
   @include transition(all ease-in-out 0.03s);
   @include monospace();
-  padding: 6px 10px;
+  padding: 5px 10px;
+  color: $grey-translucent;
   border-radius: 6px;
   background-color: rgba(0,0,0,0);
-  font-size: 15px;
-  // border: 1px solid $body-light;
+  font-size: 14px;
+  border: 1px solid $grey-translucent;
   &:not(:last-child) {
-    margin-right: 12px;
+    margin-right: 4px;
   }
   &:hover {
     @include monospace();
-    padding: 6px 10px;
+    padding: 5px 10px;
     border-radius: 6px;
+    color: $grey-translucent;
     background-color: $white;
-    font-size: 15px;
-    // border: 1px solid $white;
+    font-size: 14px;
+    border: 1px solid $white;
     &:not(:last-child) {
-      margin-right: 12px;
+      margin-right: 4px;
     }
   }
 }
