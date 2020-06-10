@@ -99,6 +99,8 @@
 
 .post-tag-link a:hover:not(:last-child) { margin-right: 4px; }
 
+.first-tag-list-rule { border-top: 6px solid #0f2105; padding-top: 12px; margin-top: 12px; }
+
 .footer-text { font-size: 18px; }
 
 .footer-text a:hover { border: 0px; }
