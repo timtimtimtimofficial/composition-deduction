@@ -29,7 +29,7 @@
 
 .post-list-rule { padding-top: 12px; }
 
-.post-link { border-top: 1px solid rgba(128, 128, 128, 0.5); margin-top: 12px; }
+.post-link { border-top: 1px solid rgba(0, 0, 0, 0.65); margin-top: 12px; }
 
 .post-link h3 { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; font-weight: normal; font-size: 20px; line-height: 1.167; margin: 1px 0px 3px; }
 
@@ -83,7 +83,7 @@
 
 @media only screen and (max-width: 992px) { .post-table-sm { display: table; } }
 
-.post-body tr { border-bottom: 1px solid rgba(128, 128, 128, 0.5); }
+.post-body tr { border-bottom: 1px solid rgba(0, 0, 0, 0.65); }
 
 .post-body th, td { padding-top: 6px; padding-bottom: 7px; }
 
