@@ -7,6 +7,8 @@
 
 .container-fluid { max-width: 1200px; flex: 1; }
 
+.container-fluid a { border: 0px; }
+
 .home-link a { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; }
 
 .home-link a:hover { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: #0f2105; border-bottom: 2px solid #0f2105; }
