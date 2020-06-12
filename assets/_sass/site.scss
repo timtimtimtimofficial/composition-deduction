@@ -76,8 +76,11 @@
 }
 
 .post-link {
-  border-top: 1px solid $grey-translucent;
+  border-top: 1px solid $grey-transparent;
   margin-top:12px;
+  @media only screen and (max-width: 992px) {
+    border-top: 1px solid $grey-translucent;
+  }
 }
 
 .post-link h3 {
@@ -212,7 +215,10 @@
 }
 
 .post-body tr {
-  border-bottom: 1px solid $grey-translucent;
+  border-bottom: 1px solid $grey-transparent;
+  @media only screen and (max-width: 992px) {
+    border-bottom: 1px solid $grey-translucent;
+  }
 }
 
 .post-body th, td {
