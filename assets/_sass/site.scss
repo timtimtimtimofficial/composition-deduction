@@ -77,6 +77,10 @@
   margin-top:12px;
 }
 
+.post-list-rule a{
+  border: 0px;
+}
+
 .post-link h3 {
   @include transition(all ease-in-out 0.05s);
   font-weight: normal;

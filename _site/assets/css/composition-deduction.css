@@ -29,6 +29,8 @@
 
 .post-list-rule { border-top: 1px solid rgba(128, 128, 128, 0.5); padding-top: 12px; margin-top: 12px; }
 
+.post-list-rule a { border: 0px; }
+
 .post-link h3 { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; font-weight: normal; font-size: 20px; line-height: 1.167; margin: 1px 0px 3px; }
 
 .post-link h3 a { color: #0f2105; }
