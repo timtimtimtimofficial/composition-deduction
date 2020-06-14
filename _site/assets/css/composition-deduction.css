@@ -31,19 +31,19 @@
 
 .post-link { border-top: 1px solid rgba(0, 0, 0, 0.3); margin-top: 12px; }
 
-@media only screen and (max-width: 992px) { .post-link { border-top: 1px solid rgba(0, 0, 0, 0.65); } }
+@media only screen and (max-width: 992px) { .post-link { border-top: 1px solid #0000FF; } }
 
 .post-link h3 { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; font-weight: normal; font-size: 20px; line-height: 1.167; margin: 1px 0px 3px; }
 
 .post-link h3 a { color: #0f2105; }
 
-.post-link h3 a:hover { border-bottom: 0px; color: rgba(0, 0, 0, 0.65); }
+.post-link h3 a:hover { border-bottom: 0px; color: #0000FF; }
 
-.subtitle-small { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: rgba(0, 0, 0, 0.65); }
+.subtitle-small { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: #0000FF; }
 
-.post-link:hover h3 { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: rgba(0, 0, 0, 0.65); }
+.post-link:hover h3 { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: #0000FF; }
 
-.post-link:hover span { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: rgba(0, 0, 0, 0.65); }
+.post-link:hover span { -webkit-transition: all ease-in-out 0.05s; -moz-transition: all ease-in-out 0.05s; -ms-transition: all ease-in-out 0.05s; -o-transition: all ease-in-out 0.05s; transition: all ease-in-out 0.05s; color: #0000FF; }
 
 .post-link-big h1 { -webkit-transition: all ease-in-out 0.075s; -moz-transition: all ease-in-out 0.075s; -ms-transition: all ease-in-out 0.075s; -o-transition: all ease-in-out 0.075s; transition: all ease-in-out 0.075s; font-weight: normal; font-size: 60px; line-height: 1; margin: -8px 0px 0px 0px; }
 
@@ -53,7 +53,7 @@
 
 .post-link-big h1 a:hover { border-bottom: 0px; color: #ff8f7b; }
 
-.subtitle-large { -webkit-transition: all ease-in-out 0.075s; -moz-transition: all ease-in-out 0.075s; -ms-transition: all ease-in-out 0.075s; -o-transition: all ease-in-out 0.075s; transition: all ease-in-out 0.075s; color: rgba(0, 0, 0, 0.65); }
+.subtitle-large { -webkit-transition: all ease-in-out 0.075s; -moz-transition: all ease-in-out 0.075s; -ms-transition: all ease-in-out 0.075s; -o-transition: all ease-in-out 0.075s; transition: all ease-in-out 0.075s; color: #0000FF; }
 
 .post-link-big:hover h1 { -webkit-transition: all ease-in-out 0.075s; -moz-transition: all ease-in-out 0.075s; -ms-transition: all ease-in-out 0.075s; -o-transition: all ease-in-out 0.075s; transition: all ease-in-out 0.075s; color: #ff8f7b; }
 
@@ -87,21 +87,21 @@
 
 .post-body tr { border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
 
-@media only screen and (max-width: 992px) { .post-body tr { border-bottom: 1px solid rgba(0, 0, 0, 0.65); } }
+@media only screen and (max-width: 992px) { .post-body tr { border-bottom: 1px solid #0000FF; } }
 
 .post-body th, td { padding-top: 6px; padding-bottom: 7px; }
 
 .post-img img { max-width: 100%; max-height: 100%; }
 
-.post-img-caption { font-family: 'Maria', helvetica, verdana, arial, sans-serif; font-weight: normal; max-width: 520px; margin-top: 16px; font-size: 15px; line-height: 1.2; color: #666; }
+.post-img-caption { font-family: 'Maria', helvetica, verdana, arial, sans-serif; font-weight: normal; max-width: 520px; margin-top: 16px; font-size: 15px; line-height: 1.2; color: #0000FF; }
 
 .post-tag-link { line-height: 40px; }
 
-.post-tag-link a { -webkit-transition: all ease-in-out 0.03s; -moz-transition: all ease-in-out 0.03s; -ms-transition: all ease-in-out 0.03s; -o-transition: all ease-in-out 0.03s; transition: all ease-in-out 0.03s; font-family: 'Roboto mono', monospace; padding: 5px 10px; color: rgba(0, 0, 0, 0.65); border-radius: 6px; background-color: rgba(0, 0, 0, 0); font-size: 14px; border: 1px solid rgba(0, 0, 0, 0.65); }
+.post-tag-link a { -webkit-transition: all ease-in-out 0.03s; -moz-transition: all ease-in-out 0.03s; -ms-transition: all ease-in-out 0.03s; -o-transition: all ease-in-out 0.03s; transition: all ease-in-out 0.03s; font-family: 'Roboto mono', monospace; padding: 5px 10px; color: #0000FF; border-radius: 6px; background-color: rgba(0, 0, 0, 0); font-size: 14px; border: 1px solid #0000FF; }
 
 .post-tag-link a:not(:last-child) { margin-right: 4px; }
 
-.post-tag-link a:hover { font-family: 'Roboto mono', monospace; padding: 5px 10px; border-radius: 6px; color: rgba(0, 0, 0, 0.65); background-color: #fff; font-size: 14px; border: 1px solid #fff; }
+.post-tag-link a:hover { font-family: 'Roboto mono', monospace; padding: 5px 10px; border-radius: 6px; color: #0000FF; background-color: #fff; font-size: 14px; border: 1px solid #fff; }
 
 .post-tag-link a:hover:not(:last-child) { margin-right: 4px; }
 
