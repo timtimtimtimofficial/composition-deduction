@@ -78,9 +78,6 @@
 .post-link {
   border-top: 1px solid $grey-transparent;
   margin-top:12px;
-  @media only screen and (max-width: 992px) {
-    border-top: 1px solid $grey-translucent;
-  }
 }
 
 .post-link h3 {
@@ -307,12 +304,12 @@ h1, h2, h3, h4 {
 
 a {
   color: $body;
-  border: none;
+  border: 0px;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   &:hover{
     color: $body;
-    border-bottom: 2px solid $blue;
+    border-bottom: 2px solid $body;
     padding-bottom: 1px;
     text-decoration: none;
   }
