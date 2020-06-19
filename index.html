@@ -45,7 +45,7 @@ layout: default
 
     <div class="row mx-1 post-list-row-no-hover">
       {%- for post in site.posts offset:4 limit:1 -%}
-      <div class="col-12 pl-0 pl-lg-3 pr-0 pr-lg-3 offset-lg-2 col-md-3 col-lg-4 pt-4 pb-0 pb-md-2">
+      <div class="col-12 pl-0 pl-lg-3 pr-0 pr-md-3 offset-lg-2 offset-md-1 col-md-5 col-lg-4 pt-4 pb-0 pb-md-2">
         <a href="{{ post.url | relative_url }}">
         <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
@@ -58,7 +58,7 @@ layout: default
       </div>
     {%- endfor -%}
       {%- for post in site.posts offset:5 limit:1 -%}
-      <div class="col-12 pl-0 pr-0 pr-lg-3 pl-md-0 pl-lg-3 col-md-3 col-lg-4 pt-4 pb-0 pb-md-2">
+      <div class="col-12 pl-0 pr-0 pr-lg-3 pl-md-3 col-md-5 col-lg-4 pt-4 pb-0 pb-md-2">
         <a href="{{ post.url | relative_url }}">
         <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
@@ -73,7 +73,7 @@ layout: default
 
 
       {%- for post in site.posts offset:6 limit:1 -%}
-      <div class="col-12 pl-0 pl-lg-3 pr-0 pr-lg-3 offset-lg-2 col-md-3 col-lg-4 pt-4 pb-0 pb-md-2">
+      <div class="col-12 pl-0 pl-lg-3 pr-0 pr-md-3 offset-lg-2 col-md-5 offset-md-1 col-lg-4 pt-4 pb-0 pb-md-2">
         <a href="{{ post.url | relative_url }}">
         <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
@@ -86,7 +86,7 @@ layout: default
       </div>
     {%- endfor -%}
       {%- for post in site.posts offset:7 limit:1 -%}
-      <div class="col-12 pl-0 pr-0 pr-lg-3 pl-md-0 pl-lg-3 col-md-3 col-lg-4 pt-4 pb-3 pb-md-2">
+      <div class="col-12 pl-0 pr-0 pr-lg-3 pl-md-3 col-md-5 col-lg-4 pt-4 pb-3 pb-md-2">
         <a href="{{ post.url | relative_url }}">
         <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
