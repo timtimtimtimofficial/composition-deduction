@@ -48,4 +48,8 @@
     {% endfor %}
   {% endif %}
 </head>
-<body {% if page.bg %} class="{{ page.bg }}" {% endif %}>
+<body>
+  <script type="text/javascript">
+    var colors = ['#FFB4CF', '#52DAF2', '#FEE685', '#FFBC78', '#D0C3E9', '#83FCD4'];
+    document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+  </script>

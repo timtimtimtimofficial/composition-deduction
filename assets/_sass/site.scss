@@ -43,76 +43,42 @@
   }
 }
 
-// color classes
-
-.yellow {
-  background: $yellow;
-}
-
-.cyan {
-  background: $cyan;
-}
-
-.pink {
-  background: $pink;
-}
-
-.orange {
-  background: $orange;
-}
-
-.violet {
-  background: $violet;
-}
-
 // Posts list
 
 .post-date {
   font-size: 14px;
 }
 
-.post-list-rule {
-  padding-top: 12px;
-}
-
-.post-link {
+.post-list-row-no-hover {
   border-top: 1px solid $grey-transparent;
   margin-top:12px;
 }
 
-.post-link h3 {
-  @include transition(all ease-in-out 0.05s);
+.post-list-row-no-hover h3 {
   font-weight: normal;
   font-size: 20px;
   line-height: 1.167;
   margin: 1px 0px 3px;
 }
 
-.post-link h3 a {
-  color: $body;
+.post-list-row {
+  @include transition(all ease-in-out 0.05s);
+  border-top: 1px solid $grey-transparent;
+  margin-top:12px;
   &:hover {
-    border-bottom: 0px;
-    color: $grey-translucent;
+    @include transition(all ease-in-out 0.05s);
+    border-top: 1px solid $grey-translucent;
   }
 }
 
-.subtitle-small {
-  @include transition(all ease-in-out 0.05s);
-  color: $grey-translucent;
+.post-list-row h3 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.167;
+  margin: 1px 0px 3px;
 }
 
-.post-link:hover h3 {
-  @include transition(all ease-in-out 0.05s);
-  color: $grey-translucent;
-}
-
-.post-link:hover span {
-  @include transition(all ease-in-out 0.05s);
-  color: $grey-translucent;
-}
-
-.post-link-big h1 {
-  @include transition(all ease-in-out 0.075s);
+.post-list-big h1 {
   font-weight: normal;
   font-size: 60px;
   line-height: 1;
@@ -122,27 +88,28 @@
   }
 }
 
-.post-link-big h1 a{
-  color: $body;
-  &:hover {
-    border-bottom: 0px;
-    color: $peach;
-  }
-}
-
-.subtitle-large {
-  @include transition(all ease-in-out 0.075s);
+.subtitle {
   color: $grey-translucent;
 }
 
-.post-link-big:hover h1 {
-  @include transition(all ease-in-out 0.075s);
-  color: $peach;
+.post-img-square {
+  width:100%;
+  padding-bottom: 66%;
+  background-size: cover;
+  margin-top: 9px;
+  margin-bottom: 24px;
+  @media only screen and (max-width: 560px) {
+    width: 62%;
+    padding-bottom: 62%;
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    float: right;
+  }
 }
 
-.post-link-big:hover span {
-  @include transition(all ease-in-out 0.075s);
-  color: $peach;
+.post-list-square-date {
+  margin-bottom: 0px;
 }
 
 // Posts
@@ -177,13 +144,13 @@
   @include sans-serif();
   @include transition(all ease-in-out 0.05s);
   color: $body-light;
-  border-bottom: 1px solid $peach;
+  border-bottom: 2px solid transparent;
   margin: 0px 1px;
   padding: 0px;
   &:hover {
     @include transition(all ease-in-out 0.05s);
     color: $body-light;
-    border-bottom: 2px solid $peach;
+    border-bottom: 2px solid $body-light;
     margin: 0px 1px;
     padding: 0px;
   }
@@ -270,6 +237,9 @@
 .first-tag-list-rule {
   border-top: 6px solid $body;
   margin-top:12px;
+  &:hover {
+    border-top: 6px solid $body;
+  }
 }
 
 // footer
@@ -285,7 +255,7 @@
 // Body
 
 body {
-  background: $background;
+  // background: $background;
   @include sans-serif();
   font-size: 20px;
   line-height: 1.2;
