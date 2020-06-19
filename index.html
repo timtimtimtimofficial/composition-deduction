@@ -16,9 +16,9 @@ layout: default
               {{ post.title | escape }}<br>
               <span class="subtitle">{{ post.subtitle | escape }}</span>
             </h1>
-            {%- if post.img-01 -%}
+            {%- if post.img_homepage -%}
             <div class="post-img pt-3">
-              <img src="assets/img/{{post.img-01}}">
+              <img src="assets/img/{{post.img_homepage}}">
             </div>
             {%- endif -%}
       </div>
@@ -47,7 +47,7 @@ layout: default
       {%- for post in site.posts offset:4 limit:1 -%}
       <div class="col-12 pl-0 pl-lg-3 pr-0 pr-md-3 offset-lg-2 offset-md-1 col-md-5 col-lg-4 pt-4 pb-0 pb-md-2">
         <a href="{{ post.url | relative_url }}">
-        <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
+        <div class="post-img-square" style="background: url(assets/img/{{post.img_homepage}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
           <p class="post-list-square-date"><span class="post-date">{{ post.date | date: date_format }}</span></p>
           <h3>
@@ -60,7 +60,7 @@ layout: default
       {%- for post in site.posts offset:5 limit:1 -%}
       <div class="col-12 pl-0 pr-0 pr-lg-3 pl-md-3 col-md-5 col-lg-4 pt-4 pb-0 pb-md-2">
         <a href="{{ post.url | relative_url }}">
-        <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
+        <div class="post-img-square" style="background: url(assets/img/{{post.img_homepage}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
         <p class="post-list-square-date"><span class="post-date">{{ post.date | date: date_format }}</span></p>
           <h3>
@@ -75,7 +75,7 @@ layout: default
       {%- for post in site.posts offset:6 limit:1 -%}
       <div class="col-12 pl-0 pl-lg-3 pr-0 pr-md-3 offset-lg-2 col-md-5 offset-md-1 col-lg-4 pt-4 pb-0 pb-md-2">
         <a href="{{ post.url | relative_url }}">
-        <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
+        <div class="post-img-square" style="background: url(assets/img/{{post.img_homepage}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
         <p class="post-list-square-date"><span class="post-date">{{ post.date | date: date_format }}</span></p>
           <h3>
@@ -88,7 +88,7 @@ layout: default
       {%- for post in site.posts offset:7 limit:1 -%}
       <div class="col-12 pl-0 pr-0 pr-lg-3 pl-md-3 col-md-5 col-lg-4 pt-4 pb-3 pb-md-2">
         <a href="{{ post.url | relative_url }}">
-        <div class="post-img-square" style="background: url(assets/img/{{post.img-01}}) 50% 50% no-repeat; background-size: cover;"></div>
+        <div class="post-img-square" style="background: url(assets/img/{{post.img_homepage}}) 50% 50% no-repeat; background-size: cover;"></div>
         {%- assign date_format = "%b %-d, %Y" -%}
         <p class="post-list-square-date"><span class="post-date">{{ post.date | date: date_format }}</span></p>
           <h3>
